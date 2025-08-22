@@ -1,0 +1,125 @@
+{
+  "pages": [
+    {
+      "id": "home",
+      "title": "Home",
+      "content": "<section class='hero'>\n  <div class='hero-text'>\n    <h2>Welcome to My Recipe Book</h2>\n    <p>Discover delicious recipes dynamically generated from JSON data. Explore, filter, and find your next favorite dish!</p>\n    <a href='#recipes' class='btn'>Browse Recipes</a>\n  </div>\n  <div class='hero-image'>\n    <img src='images/hero-cooking.webp' alt='Cooking illustration'/>\n  </div>\n</section>\n<section class='features'>\n  <div class='feature'>\n    <h3>Dynamic Recipes</h3>\n    <p>All recipes are dynamically loaded and easy to browse.</p>\n  </div>\n  <div class='feature'>\n  <h3>Search & Filter</h3>\n    <p>Find recipes by name or ingredient instantly.</p>\n  </div>\n  <div class='feature'>\n    <h3>Step-by-Step Preparation</h3>\n    <p>Follow the ingredients and preparation instructions for each recipe.</p>\n  </div>\n</section>"
+    },
+
+    {
+      "id": "recipes",
+      "title": "Recipes",
+      "content": ""
+    }
+  ],
+  "recipes": [
+    {
+      "title": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta with eggs, parmesan, and bacon.",
+      "image": "images/SpaghettiCarbonara.png",
+      "ingredients": ["200g spaghetti", "2 eggs", "50g parmesan", "100g bacon"],
+      "preparation": "Cook pasta. Fry bacon. Mix eggs with parmesan. Combine all together."
+    },
+    {
+      "title": "Vegetable Soup",
+      "description": "A healthy, hearty soup with fresh vegetables.",
+      "image": "images/VegetableSoup.jpg",
+      "ingredients": ["1L water", "2 carrots", "1 potato", "celery", "salt"],
+      "preparation": "Boil water. Add chopped vegetables. Cook for 25 minutes. Season to taste."
+    },
+    {
+      "title": "Chocolate Pancakes",
+      "description": "Quick dessert pancakes with chocolate or jam.",
+      "image": "images/ChocolatePancakes.png",
+      "ingredients": [
+        "200g flour",
+        "2 eggs",
+        "250ml milk",
+        "3 tbsp cocoa powder"
+      ],
+      "preparation": "Mix ingredients. Fry pancakes. Serve with chocolate or jam."
+    },
+    {
+      "title": "Greek Salad",
+      "description": "Refreshing salad with feta, olives, cucumber, and tomatoes.",
+      "image": "images/GreekSalad.png",
+      "ingredients": [
+        "2 tomatoes",
+        "1 cucumber",
+        "100g feta cheese",
+        "50g olives",
+        "olive oil",
+        "oregano"
+      ],
+      "preparation": "Chop vegetables. Add feta and olives. Drizzle with olive oil and sprinkle oregano."
+    },
+    {
+      "title": "Grilled Chicken",
+      "description": "Juicy chicken breast marinated in herbs and grilled.",
+      "image": "images/GrilledChicken.png",
+      "ingredients": [
+        "2 chicken breasts",
+        "2 tbsp olive oil",
+        "1 tsp paprika",
+        "1 tsp garlic powder",
+        "salt",
+        "pepper"
+      ],
+      "preparation": "Marinate chicken with oil and spices. Grill on medium heat for 6–8 minutes per side."
+    },
+    {
+      "title": "Avocado Toast",
+      "description": "Simple and nutritious toast with avocado and toppings.",
+      "image": "images/AvocadoToast.png",
+      "ingredients": [
+        "2 slices of bread",
+        "1 avocado",
+        "lemon juice",
+        "salt",
+        "pepper",
+        "optional: cherry tomatoes, feta"
+      ],
+      "preparation": "Toast bread. Mash avocado with lemon juice, salt, and pepper. Spread on toast and add toppings."
+    },
+    {
+      "title": "Beef Tacos",
+      "description": "Mexican-style tacos with seasoned beef and vegetables.",
+      "image": "images/BeefTacos.png",
+      "ingredients": [
+        "200g ground beef",
+        "taco shells",
+        "lettuce",
+        "tomato",
+        "onion",
+        "cheese",
+        "taco seasoning"
+      ],
+      "preparation": "Cook beef with seasoning. Fill taco shells with meat, veggies, and cheese."
+    },
+    {
+      "title": "Fruit Smoothie",
+      "description": "Healthy smoothie with banana, berries, and yogurt.",
+      "image": "images/FruitSmoothie.jpg",
+      "ingredients": [
+        "1 banana",
+        "100g berries",
+        "200ml yogurt",
+        "1 tsp honey"
+      ],
+      "preparation": "Blend banana, berries, yogurt, and honey until smooth. Serve chilled."
+    },
+    {
+      "title": "Margherita Pizza",
+      "description": "Classic Italian pizza with tomato, mozzarella, and basil.",
+      "image": "images/MargheritaPizza.jpg",
+      "ingredients": [
+        "pizza dough",
+        "200g tomato sauce",
+        "150g mozzarella",
+        "fresh basil leaves",
+        "olive oil"
+      ],
+      "preparation": "Spread sauce on dough. Add mozzarella. Bake at 220°C for 10–12 min. Garnish with basil and olive oil."
+    }
+  ]
+}
