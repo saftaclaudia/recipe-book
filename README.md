@@ -37,11 +37,10 @@ recipe-book/
 ▶️ Live Demo
 
 👉 View the app on GitHub Pages:
-https://username.github.io/recipe-book
+https://saftaclaudia.github.io/recipe-book/
 
 📸 Screenshot
-
-(you can add one later, e.g., /images/screenshot.png)
+images/screenshot.png
 
 🤝 Contributing
 
